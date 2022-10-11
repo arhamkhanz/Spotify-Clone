@@ -71,21 +71,6 @@ else{
  element.classList.remove('fa-circle-pause');
  element.classList.add('fa-circle-play');
 }
-
-//if(audioElement.paused()){
-    
-//e.target.classList.remove('fa-circle-pause');
-//e.target.classList.add('fa-circle-play');
-//audioElement.play()
-//}
-//else{
- //   e.target.classList.remove('fa-circle-play');
-  //  e.target.classList.add('fa-circle-pause');
-  //  audioElement.play();
-//}
-    })
-})
-
 ff.addEventListener('click',()=>{
     if(songIndex>9){
     songIndex=0;
