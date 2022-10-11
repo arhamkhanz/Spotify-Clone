@@ -20,7 +20,6 @@ nav ul{
 nav ul li{
     font-size: 2rem;
     padding: 0 1.2rem;
-    /* border-bottom: 1px black solid; */
 }
 nav ul li:hover{
 cursor: pointer;
@@ -54,8 +53,6 @@ border-bottom: none;
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
-    -webkit-box-shadow: 14px -9px 32px 7px rgba(117,78,117,1);
--moz-box-shadow: 14px -9px 32px 7px rgba(117,78,117,1);
 box-shadow: 14px -9px 32px 7px rgba(117,78,117,1);
     
 }
@@ -65,8 +62,6 @@ box-shadow: 14px -9px 32px 7px rgba(117,78,117,1);
     width: fit-content;
     color: aliceblue;
     background-color: #0c0707;   
--webkit-box-shadow: -4px -2px 21px 5px rgb(139, 80, 179);
--moz-box-shadow: -4px -2px 21px 5px rgb(46, 109, 128);
 box-shadow: -4px -2px 21px 5px rgb(46, 105, 128);
 bottom: 0;
 display:flex;
