@@ -109,3 +109,7 @@ function rollDie() {
     const roll = Math.floor(Math.random() * 6) + 1
     console.log(roll)
 }
+//regex to check if string has any digit?
+const check=(str)=>(
+/^[0-9]+$/gi.test(str)?true:false
+)
