@@ -79,7 +79,7 @@ function isSnakeEyes(die1, die2) {
     if (die1 === 1 && die2 === 1) {
         console.log("snake eyes")
     } else {
-        console.log("No FU")
+        console.log("sorry its not")
     }
 }
 // program to give out ur first plus last name using functions 
@@ -109,3 +109,7 @@ function rollDie() {
     const roll = Math.floor(Math.random() * 6) + 1
     console.log(roll)
 }
+//regex to check if string has any digit?
+const check=(str)=>(
+/^[0-9]+$/gi.test(str)?true:false
+)
